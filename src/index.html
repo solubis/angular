@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+
+	<head>
+		<base href="/">
+		<meta charset="utf-8">
+		<title>Typescript Angular Example</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+
+		<div ng-controller="MainController">
+			<span ng-bind="bar"></span>
+			<button ng-click="foo()">Increment</button>
+		</div>
+
+		<script src="node_modules/systemjs/dist/system.js"></script>
+		<script src=system.config.js></script>
+		<script>System.import('src/main');</script>
+	</body>
+
+</html>

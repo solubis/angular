@@ -1,0 +1,8 @@
+{
+    "preset": "google",
+    "esnext": true,
+    "requireCurlyBraces": false,
+    "validateIndentation": 4,
+    "disallowSpacesInAnonymousFunctionExpression": false,
+    "disallowSpacesInFunctionExpression": false
+}

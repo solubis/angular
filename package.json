@@ -1,0 +1,36 @@
+{
+    "name": "angular",
+    "version": "0.0.1",
+    "description": "Angular written in Typescript",
+    "scripts": {
+        "postinstall": "tsd install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/solubis/angular.git"
+    },
+    "author": "Jerzy Błaszczyk (solubis.com)",
+    "license": "Unlicense",
+    "bugs": {
+        "url": "https://github.com/solubis/angular/issues"
+    },
+    "typings": "dist",
+    "devDependencies": {
+        "systemjs": "*",
+        "tsd": "*",
+        "typescript": "1.6.x",
+        "babel-core": "^5.8.25",
+        "browser-sync": "^2.9.8",
+        "del": "^2.0.2",
+        "gulp": "*",
+        "gulp-typescript": "*",
+        "gulp-sass": "*",
+        "require-dir": "^0.3.0",
+        "run-sequence": "^1.1.4",
+        "systemjs-builder": "^0.14.7",
+        "tsd": "0.6.5-beta.2"
+    },
+    "dependencies": {
+        "lodash": "*"
+    }
+}
